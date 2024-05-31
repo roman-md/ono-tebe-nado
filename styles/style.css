@@ -76,12 +76,24 @@ body {
 
 }
 
-.cover{
+.cover {
   background-image: url("../images/cover.jpg");
   background-size: cover;
-  background-color: rgba(0, 0, 0, .6);
-  background-blend-mode: multiply;
+  /*background-size: 1100px 757px;*/
+  background-repeat: no-repeat;
+  /*background-color: rgba(0, 0, 0, .6);*/
+  /*background-blend-mode: multiply;*/
+  position: relative;
   height: 757px;
+}
+
+.cover__title {
+  margin: 165px 50px 135px;
+}
+
+.overlay {
+  position: absolute;
+  background-color: rgba(0, 0, 0, .6);
 }
 
 .lots{
